@@ -1,0 +1,22 @@
+{
+  "author": "mpavlushchenko",
+  "license": "ISC",
+  "name": "design_patterns_guide",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "react": "^19.0.0"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.9.4",
+    "@types/react": "^19.0.1",
+    "@types/react-dom": "^19.0.2"
+  },
+  "scripts": {
+    "lint": "npx @biomejs/biome format --write ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mpavlushchenko/design_patterns_guide.git"
+  }
+}
