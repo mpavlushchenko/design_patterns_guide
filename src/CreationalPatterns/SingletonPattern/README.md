@@ -22,9 +22,6 @@ It ensures that all parts of the app share the same counter instance.
 - A static method `getInstance()` ensures only one instance of the class is created.
 - Methods include `increment()`, `decrement()`, and `getCount()` to manage the counter.
 
-### App.tsx
-- Demonstrates interaction with the `Counter` instance using React state to display the count.
-
 ---
 
 ## How It Works:
